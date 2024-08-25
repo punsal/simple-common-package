@@ -5,7 +5,10 @@ using Object = UnityEngine.Object;
 
 namespace Common.Runtime.Abstract
 {
-    // A simple Singleton Pattern for MonoBehaviours
+    /// <summary>
+    /// A simple Singleton Pattern for MonoBehaviours
+    /// </summary>
+    /// <typeparam name="T">Implementing class</typeparam>
     public abstract class AMonoSingleton<T> : MonoBehaviour, IInitialize where T : Object
     {
         private static T _instance;
@@ -39,6 +42,9 @@ namespace Common.Runtime.Abstract
             Initialize();
         }
 
+        /// <summary>
+        /// Initialize on Awake call.
+        /// </summary>
         public abstract void Initialize();
     }
 }

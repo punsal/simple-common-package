@@ -1,0 +1,16 @@
+{
+  "name": "com.punsal.common.examples",
+  "rootNamespace": "",
+  "references": [
+    "com.punsal.common"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

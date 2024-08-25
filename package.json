@@ -1,20 +1,17 @@
 {
-  "name": "com.punsal.[package-name]",
+  "name": "com.punsal.common",
   "version": "1.0.0",
-  "displayName": "[package-name]",
-  "description": "",
+  "displayName": "Simple-Common",
+  "description": "A common codebase package for dependent Simple packages.",
   "unity": "2022.3",
   "unityRelease": "34f1",
   "documentationUrl": "",
   "changelogUrl": "",
   "licensesUrl": "",
-  "dependencies": {
-    "com.punsal.[dependent-package-name]": "1.0.0"
-  },
   "keywords": [
     "punsal",
     "simple",
-    "[extra-keyword]"
+    "common"
   ],
   "author": {
     "name": "Mustafa Pamir Ünsal",
