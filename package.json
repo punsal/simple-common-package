@@ -1,0 +1,24 @@
+{
+  "name": "com.punsal.[package-name]",
+  "version": "1.0.0",
+  "displayName": "[package-name]",
+  "description": "",
+  "unity": "2022.3",
+  "unityRelease": "34f1",
+  "documentationUrl": "",
+  "changelogUrl": "",
+  "licensesUrl": "",
+  "dependencies": {
+    "com.punsal.[dependent-package-name]": "1.0.0"
+  },
+  "keywords": [
+    "punsal",
+    "simple",
+    "[extra-keyword]"
+  ],
+  "author": {
+    "name": "Mustafa Pamir Ünsal",
+    "email": "pamir.unsal@gmail.com",
+    "url": "https://www.linkedin.com/in/mustafa-pamir-unsal/"
+  }
+}
